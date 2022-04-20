@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY_FILE }}
           port: ${{ secrets.PORT }}
-          script: "cd /var/www/html/app-dev.ultimatehealth.in && git checkout main && git pull origin main"
+          script: "cd /var/www/html/app-dev.ultimatehealth.in/cicd-demo && git checkout main && git pull origin main"
